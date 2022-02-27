@@ -1,6 +1,3 @@
-from crypt import methods
-from distutils.log import debug
-from importlib.resources import contents
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
